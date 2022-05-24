@@ -1,0 +1,158 @@
+.footer {
+  position: relative;
+
+
+  .line {
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    padding: 17px 0 0 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: $bp_lg) {
+      display: none;
+    }
+
+
+    & img {
+      margin-bottom: 20px;
+    }
+  }
+
+  .line__horizontal-side {
+    height: 100%;
+    width: 2px;
+    background-color: $secondary;
+    position: relative;
+  }
+}
+
+.footer__inner {
+  background-color: black;
+  padding: 40px 26px 45px 45px;
+  height: 100vh;
+
+
+  @media (min-width: $bp_lg) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+  }
+
+  .footer__logo {
+    display: none;
+
+    @media (min-width: $bp_lg) {
+      display: flex;
+      font-size: 54px;
+      color: $secondary;
+    }
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    @media (min-width: $bp_lg) {
+      padding: 0px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+    }
+  }
+
+  .block {
+
+
+
+    @media (min-width: $bp_lg) {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      justify-content: space-between;
+    }
+  }
+
+  .contacts__title {
+    display: block;
+    color: $secondary;
+    font-family: 'Gilroy-Regular';
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    @media (min-width: $bp_lg) {
+      display: none;
+    }
+  }
+
+  .contacts__list {
+    padding-top: 172px;
+
+
+    @media (min-width: $bp_lg) {
+      padding-top: 0;
+
+    }
+  }
+
+  .contacts__item {
+    margin-bottom: 25px;
+
+    &:nth-last-child(1) {
+      margin-bottom: 0px;
+    }
+  }
+
+  .contact__item-link {
+    font-family: 'Gilroy-Regular';
+    color: $secondary;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+
+
+    & span:first-child {
+      font-weight: bold;
+    }
+  }
+
+  .contacts__title--second {
+    display: none;
+
+
+    @media (min-width: $bp_lg) {
+      color: $secondary;
+      display: block;
+      margin-bottom: 40px;
+    }
+  }
+
+  .contacts__list_social {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px 0 28px;
+  }
+
+  .contacts__item_social {
+
+    &:nth-child(5) {
+      display: none;
+    }
+  }
+
+  .contacts__link_social img {
+    width: 33px;
+    height: 33px;
+  }
+}

@@ -1,0 +1,12 @@
+@import 'variables'; //пишем переменные
+@import 'reset'; //сборс стилей
+@import 'fonts'; //подключаем шрифты (локально)
+
+
+
+@import 'blocks/header.scss';
+@import 'blocks/capital.scss';
+// @import 'blocks/investments.scss';
+// @import 'blocks/competence.scss';
+@import 'blocks/footer.scss';
+

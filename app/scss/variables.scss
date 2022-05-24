@@ -1,0 +1,26 @@
+//bacgrounds
+$primary: black;
+$secondary: rgb(255, 255, 255);
+$grey: rgba(255, 255, 255, 0.3);
+
+
+
+
+//fonts
+$basic-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+
+$font-size-base: 1rem;
+$line-height-base: 1.35rem;
+$font-size-s: 1.25rem;
+$line-height-s: 1.25rem;
+$font-size-m: 2rem;
+$line-height-m: 2.7rem;
+
+// breakpoints for mixin
+$bp_xs: 375px;
+$bp_sm: 576px;
+$bp_md: 768px;
+$bp_lg: 1024px;
+$bp_xl: 1200px;
+$bp_xxl: 1400px;
+$bp_extra_large: 1920px;

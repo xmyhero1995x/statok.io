@@ -15,6 +15,7 @@ function clickHandler(e) {
   });
 }
 
+
 // arrow language 
 const arrowLangPosition = document.querySelector('.header__arrow--bold');
 const langMenu = document.querySelector('.header__lang');
